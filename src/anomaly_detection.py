@@ -158,7 +158,7 @@ def sort(data, data2):
         except KeyError:
             continue
 
-        # Checks if at eof od data, if true adds data2 line by line to data
+        # Checks if at eof of data, if true adds data2 line by line to data
         if i == data[-1]:
             if o == len(data2) - 1:
                 data.append(data2[o])
