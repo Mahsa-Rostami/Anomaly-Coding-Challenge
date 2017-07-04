@@ -146,11 +146,6 @@ def sort(data, data2):
 
                         get_output(i, avg, sd)
 
-                        #if list_output != None:
-                        #    for y in list_output:
-                        #        list_file.append(y)
-
-
                 except KeyError:
                     continue
             elif i["event_type"] == 'befriend':
