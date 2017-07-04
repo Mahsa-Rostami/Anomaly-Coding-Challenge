@@ -14,7 +14,7 @@ all_parts = {}
 
 # Create output file of purchase anomalies
 def write_output(output_path,list_output):
-        with open(output_path, 'a') as outfile:
+        with open(output_path, 'w') as outfile:
             outfile.write(str(list_output))
 
 def get_sd(list_t):
