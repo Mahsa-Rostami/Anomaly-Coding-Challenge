@@ -17,6 +17,7 @@ def write_output(output_path,list_output):
         with open(output_path, 'w') as outfile:
             outfile.write(str(list_output))
 
+# Gets the average & standard deviation of the purchses inside network
 def get_sd(list_t):
     step1 = 0
     sd = 0
@@ -157,7 +158,7 @@ def sort(data, data2):
         except KeyError:
             continue
 
-        # Checks if at eof, if true adds data2 line by line to data
+        # Checks if at eof od data, if true adds data2 line by line to data
         if i == data[-1]:
             if o == len(data2) - 1:
                 data.append(data2[o])
